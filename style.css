@@ -1,0 +1,41 @@
+body, html {
+  background-color: #222;
+  color: #eee;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body{
+  font-size: 24pt;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  padding: 0 10vw 0 10vw;
+}
+
+.header {
+  background-color: #eee;
+  font-size: 4rem;
+  height: 50vh;
+  background-image: url('https://www.newsobserver.com/living/food-drink/w4uhdo/picture196042509/alternates/FREE_1140/Fieri');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.section {
+  border-top: 1vh solid #eee;
+}
+
+img{
+  width: 100%;
+}
+
+.small{
+  height: 50%;
+}
